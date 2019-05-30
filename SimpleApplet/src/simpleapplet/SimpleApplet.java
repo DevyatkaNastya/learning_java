@@ -16,7 +16,7 @@ public class SimpleApplet extends Applet {
     /**
      * @param args the command line arguments
      */
-    
+    @Override
      public void paint(Graphics g){
          g.drawString("A Simple Applet", 20, 20);
      
